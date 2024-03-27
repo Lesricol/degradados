@@ -19,4 +19,87 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+.group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 620px;
+  height: 310px;
+
+}
+
+.flag-1{
+  width: 200px ;
+  height: 150px;
+  background-image: linear-gradient(red 33.3%, blue 33.3% 66.6%, orange 66.6%);
+  border: 1px solid white;
+}
+
+.flag-2{
+  width: 200px ;
+  height: 150px;
+  background-image: linear-gradient( to right, black 33.3%, yellow 33.3% 66.6%, red 66.6%);
+  border: 1px solid white;
+}
+
+.flag-3{
+  width: 200px ;
+  height: 150px;
+  background-image: linear-gradient( #75AADB 50px, white 50px 60px, black 60px 90px, white 90px 100px, #75AADB 100px);
+  border: 1px solid white;
+}
+
+.flag-4{
+  width: 200px ;
+  height: 150px;
+  background-image: linear-gradient( to right, green 33.3%, transparent 33.3% ), linear-gradient(yellow 75px, red 75px);
+  border: 1px solid white;
+}
+
+.flag-5{
+  width: 200px ;
+  height: 150px;
+  background-image: linear-gradient( 135deg, green 40%, yellow 40% 60%, red 60% );
+  border: 1px solid white;
+}
+
+.flag-6{
+  width: 200px ;
+  height: 150px;
+  background-image: linear-gradient(110deg, blue 20%, transparent 20%),
+  linear-gradient(130deg, yellow 40%, transparent 40%), linear-gradient(152deg, red 60%, transparent 60%), linear-gradient(169deg, white 80%, transparent 80%), linear-gradient(-45deg, green 80%, transparent 80%);
+  border: 1px solid white;
+}
+
+
+.flag-7{
+  width: 200px ;
+  height: 150px;
+  background-image: radial-gradient( circle, red 40%, white 40%  )
+}
+
+.flag-8{
+  width: 200px ;
+  height: 150px;
+  background-image: radial-gradient( circle at 80px, yellow 33.3%, blue 33.3%  )
+}
+
+.flag-9{
+  width: 200px ;
+  height: 150px;
+  background-image: radial-gradient( circle, white 30%, transparent 30%  ),
+  linear-gradient(red 25%, blue 25% 75%, red 75%)
+}
+
+.arcoiris{
+  width: 700px;
+  height: 500px;
+  border: 1px solid white;
+  background-image: radial-gradient(circle at bottom, gray 10%, red 10% 20%, orange 20% 30%, yellow 30% 40%, green 40% 50%, blue 50% 60%, purple 60% 70%, violet 70% 80%, transparent 80% );
 }
